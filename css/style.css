@@ -24,10 +24,6 @@
     border-color: red;
 }
 
-#new-releases [class^='col']{
-    height: 5rem;
-}
-
 #nr-banner [class^='col']{
     height: 20rem;
 }
@@ -54,14 +50,6 @@ body{
     padding-top: 5rem;
 }
 
-.cs-text-blue{
-    color: var(--blue);
-}
-
-.cs-text-gray{
-    color: var(--gray);
-}
-
     /*+ BUTTONS */
 
     .btn.cs-btn-buy{
@@ -73,6 +61,21 @@ body{
         background-color: var(--blue);
         color: white;
     }
+
+/*!UTILS */
+
+.cs-text-blue{
+    color: var(--blue);
+}
+
+.cs-text-gray{
+    color: var(--gray);
+}
+
+.cs-mw-50{
+    max-width: 50%;
+}
+
 
 /*! HEADER */
 
@@ -100,10 +103,6 @@ header .navbar{
 
 }
 
-#jumbotron img{
-    max-width: 50%;
-}
-
 /*! GAMES SLIDER */
 
 #games-slider .img-thumbnail{
@@ -123,4 +122,29 @@ header .navbar{
 
 #product-ps5 .row:last-child .col:first-child{
     border-color: var(--blue) !important;
+}
+
+/*! NEW RELEASES SECTION */
+
+.nr-top{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.nr-bottom{
+    background-color: var(--darkgrey);
+}
+
+/*! MEDIA QUERIES */
+
+/*# BREAKPOINT LG */
+
+@media screen and (min-width: 992px) {
+
+    .cs-mw-lg-80{
+        max-width: 80%;
+    }
+
 }
