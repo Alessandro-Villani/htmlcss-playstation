@@ -1,0 +1,13 @@
+/*! CUSTOM PROPERTIES */
+
+:root{
+    --blue: rgb(45,100,230);
+    --darkblue: rgb(0,67,156);
+    --darkerblue: rgb(22,28,59);
+    --darkgrey: rgb(31,31,31);
+    --lightgray: rgb(190,188,187);
+}
+
+body{
+    background-color: blue;
+}
