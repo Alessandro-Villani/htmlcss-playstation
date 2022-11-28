@@ -117,10 +117,10 @@ header .navbar{
 
 /*! PRODUCT PS5 SECTION */
 
-#product-ps5 figure{
+#product-ps5 row:last-child .col{
     border-color: transparent !important;
 }
 
-#product-ps5 .col:first-child figure{
+#product-ps5 .row:last-child .col:first-child{
     border-color: var(--blue) !important;
 }
