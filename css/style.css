@@ -22,9 +22,10 @@
     border-color: red;
 }
 
-#games-slider{
+#games-slider [class^='col'], #product [class^='col']{
     height: 5rem;
 }
+
 
 /*! GENERICS */
 
