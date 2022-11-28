@@ -4,6 +4,7 @@
     --blue: rgb(45,100,230);
     --darkblue: rgb(0,67,156);
     --darkerblue: rgb(22,28,59);
+    --gray: rgb(130,130,130);
     --darkgrey: rgb(31,31,31);
     --lightgray: rgb(190,188,187);
     --btn-buy: rgb(205,61,15);
@@ -39,7 +40,7 @@
     height: 8rem;
 }
 
-#product-ps5 [class^='col'], #product-ps4 [class^='col'], #ps-store [class^='col'], #social [class^='col']{
+#product-ps4 [class^='col'], #ps-store [class^='col'], #social [class^='col']{
     height: 5rem;
 }
 
@@ -53,10 +54,23 @@ body{
     padding-top: 5rem;
 }
 
+.cs-text-blue{
+    color: var(--blue);
+}
+
+.cs-text-gray{
+    color: var(--gray);
+}
+
     /*+ BUTTONS */
 
     .btn.cs-btn-buy{
         background-color: var(--btn-buy);
+        color: white;
+    }
+
+    .btn.cs-btn-info{
+        background-color: var(--blue);
         color: white;
     }
 
@@ -99,4 +113,14 @@ header .navbar{
 
 #games-slider .col:first-child .img-thumbnail{
     border-color: var(--blue);
+}
+
+/*! PRODUCT PS5 SECTION */
+
+#product-ps5 figure{
+    border-color: transparent !important;
+}
+
+#product-ps5 .col:first-child figure{
+    border-color: var(--blue) !important;
 }
