@@ -24,14 +24,6 @@
     border-color: red;
 }
 
-#nr-banner [class^='col']{
-    height: 20rem;
-}
-
-#social [class^='col']{
-    height: 5rem;
-}
-
 footer [class^='col']{
     min-height: 6rem;
 }
