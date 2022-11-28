@@ -28,10 +28,6 @@
     height: 20rem;
 }
 
-#ps-now  [class^='col']{
-    height: 8rem;
-}
-
 #social [class^='col']{
     height: 5rem;
 }
@@ -141,6 +137,12 @@ header .navbar{
 
 #ps-plus {
     background-color: var(--lightgray);
+}
+
+/*! PS NOW SECTION */
+
+#ps-now{
+    background-color: var(--darkerblue);
 }
 
 /*! MEDIA QUERIES */
