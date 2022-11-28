@@ -32,7 +32,7 @@
     height: 8rem;
 }
 
-#ps-store [class^='col'], #social [class^='col']{
+#social [class^='col']{
     height: 5rem;
 }
 
