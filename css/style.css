@@ -33,3 +33,10 @@ body{
 header{
     height: 5rem;
 }
+
+/*! JUMBOTRON */
+
+#jumbotron{
+    height: 20rem;
+}
+
