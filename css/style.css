@@ -28,7 +28,7 @@
     height: 20rem;
 }
 
-#ps-plus [class^='col'], #ps-now  [class^='col']{
+#ps-now  [class^='col']{
     height: 8rem;
 }
 
@@ -70,6 +70,10 @@ body{
 
 .cs-mw-50{
     max-width: 50%;
+}
+
+.cs-mw-60{
+    max-width: 60%;
 }
 
 
@@ -131,6 +135,12 @@ header .navbar{
 
 .nr-bottom{
     background-color: var(--darkgrey);
+}
+
+/*! PS PLUS SECTION */
+
+#ps-plus {
+    background-color: var(--lightgray);
 }
 
 /*! MEDIA QUERIES */
