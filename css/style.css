@@ -8,6 +8,28 @@
     --lightgray: rgb(190,188,187);
 }
 
+/*+ DEBUG - TODO REMOVE */
+
+.debug{
+    border: 1px dashed black;
+}
+
+.row.debug{
+    border-color: yellow;
+}
+
+[class^='col'].debug{
+    border-color: red;
+}
+
+/*! GENERICS */
+
 body{
-    background-color: blue;
+    padding-top: 5rem;
+}
+
+/*! HEADER */
+
+header{
+    height: 5rem;
 }
