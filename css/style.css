@@ -24,10 +24,6 @@
     border-color: red;
 }
 
-footer [class^='col']{
-    min-height: 6rem;
-}
-
 /*! GENERICS */
 
 body{
@@ -54,6 +50,10 @@ body{
 
 .cs-text-gray{
     color: var(--gray);
+}
+
+.cs-mw-20{
+    max-width: 20%;
 }
 
 .cs-mw-50{
@@ -135,6 +135,12 @@ header .navbar{
 
 #ps-now{
     background-color: var(--darkerblue);
+}
+
+/*! FOOTER */
+
+footer{
+    background-color: var(--darkblue);
 }
 
 /*! MEDIA QUERIES */
