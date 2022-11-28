@@ -6,6 +6,7 @@
     --darkerblue: rgb(22,28,59);
     --darkgrey: rgb(31,31,31);
     --lightgray: rgb(190,188,187);
+    --btn-buy: rgb(205,61,15);
 }
 
 /*+ DEBUG - TODO REMOVE */
@@ -52,6 +53,13 @@ body{
     padding-top: 5rem;
 }
 
+    /*+ BUTTONS */
+
+    .btn.cs-btn-buy{
+        background-color: var(--btn-buy);
+        color: white;
+    }
+
 /*! HEADER */
 
 header{
@@ -70,6 +78,15 @@ header .navbar{
 /*! JUMBOTRON */
 
 #jumbotron{
-    height: 20rem;
+    height: 25rem;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+}
+
+#jumbotron img{
+    max-width: 50%;
 }
 
