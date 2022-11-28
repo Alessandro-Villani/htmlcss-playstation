@@ -34,6 +34,10 @@
     height: 3rem;
 }
 
+#ps-plus [class^='col'], #ps-now  [class^='col']{
+    height: 8rem;
+}
+
 #games-slider [class^='col'], #product-ps5 [class^='col'], #product-ps4 [class^='col']{
     height: 5rem;
 }
