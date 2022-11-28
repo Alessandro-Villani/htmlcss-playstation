@@ -42,6 +42,10 @@
     height: 5rem;
 }
 
+footer [class^='col']{
+    min-height: 6rem;
+}
+
 /*! GENERICS */
 
 body{
