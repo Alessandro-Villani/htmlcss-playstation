@@ -22,6 +22,10 @@
     border-color: red;
 }
 
+#games-slider{
+    height: 5rem;
+}
+
 /*! GENERICS */
 
 body{
