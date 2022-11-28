@@ -58,6 +58,15 @@ header{
     height: 5rem;
 }
 
+header img:first-of-type{
+    max-height: 100%;
+}
+
+header .navbar{
+    padding: 0;
+}
+
+
 /*! JUMBOTRON */
 
 #jumbotron{
