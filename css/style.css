@@ -22,10 +22,6 @@
     border-color: red;
 }
 
-#games-slider [class^='col'], #product-ps5 [class^='col']{
-    height: 5rem;
-}
-
 #new-releases [class^='col']{
     height: 5rem;
 }
@@ -34,6 +30,13 @@
     height: 20rem;
 }
 
+#product-ps4 .row:first-child [class^='col']{
+    height: 3rem;
+}
+
+#games-slider [class^='col'], #product-ps5 [class^='col'], #product-ps4 [class^='col']{
+    height: 5rem;
+}
 
 /*! GENERICS */
 
