@@ -28,15 +28,11 @@
     height: 20rem;
 }
 
-#product-ps4 .row:first-child [class^='col']{
-    height: 3rem;
-}
-
 #ps-plus [class^='col'], #ps-now  [class^='col']{
     height: 8rem;
 }
 
-#product-ps4 [class^='col'], #ps-store [class^='col'], #social [class^='col']{
+#ps-store [class^='col'], #social [class^='col']{
     height: 5rem;
 }
 
