@@ -7,7 +7,9 @@
     --gray: rgb(130,130,130);
     --darkgrey: rgb(31,31,31);
     --lightgray: rgb(190,188,187);
-    --btn-buy: rgb(205,61,15);
+    --cs-btn-dark: rgb(33,37,41);
+    --cs-btn-danger: rgb(220,53,69);
+    --cs-btn-primary: rgb(13,110,253);
 }
 
 /*! GENERICS */
@@ -15,6 +17,43 @@
 body{
     padding-top: 5rem;
 }
+
+    /*+ BUTTON */
+
+    body .btn{
+        border: 3px solid transparent;
+        transition: all 0.5s;
+    }
+
+    body .btn:hover {
+        border: 3px solid transparent;
+        background-clip: padding-box;
+        
+    }
+
+    body .btn.btn-dark:hover{
+        box-shadow: 0 0 1px 1px var(--cs-btn-dark);
+        background-color: var(--cs-btn-dark);
+    }
+
+    body .btn.btn-danger:hover{
+        box-shadow: 0 0 1px 1px var(--cs-btn-danger);
+        background-color: var(--cs-btn-danger);
+    }
+
+    body .btn.btn-primary:hover{
+        box-shadow: 0 0 1px 1px var(--cs-btn-primary);
+        background-color: var(--cs-btn-primary);
+    }
+
+    body .btn.btn-light:hover{
+        box-shadow: 0 0 1px 1px white;
+        background-color: white;
+    }
+
+    body .btn.btn-light.cs-text-blue:hover{
+        color: var(--blue);
+    }
 
 /*! UTILS */
 
