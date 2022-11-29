@@ -10,39 +10,13 @@
     --btn-buy: rgb(205,61,15);
 }
 
-/*+ DEBUG - TODO REMOVE */
-
-.debug{
-    border: 1px dashed black;
-}
-
-.row.debug{
-    border-color: yellow;
-}
-
-[class^='col'].debug{
-    border-color: red;
-}
-
 /*! GENERICS */
 
 body{
     padding-top: 5rem;
 }
 
-    /*+ BUTTONS */
-
-    .btn.cs-btn-buy{
-        background-color: var(--btn-buy);
-        color: white;
-    }
-
-    .btn.cs-btn-info{
-        background-color: var(--blue);
-        color: white;
-    }
-
-/*!UTILS */
+/*! UTILS */
 
 .cs-text-blue{
     color: var(--blue);
@@ -79,6 +53,18 @@ header .navbar{
     padding: 0;
 }
 
+header .dropdown-toggle::after{
+    border: none;
+    content: url(../img/chevron-down-solid.svg);
+    width: 12px;
+    vertical-align: middle;
+}
+
+header .dropdown-toggle:hover::after{
+    content: url(../img/chevron-down-solid-hover.svg);
+    width: 12px;
+    vertical-align: middle;
+}
 
 /*! JUMBOTRON */
 
@@ -102,15 +88,40 @@ header .navbar{
     border-color: var(--blue);
 }
 
+#games-slider img{
+    transition: transform .5s;
+}
+
+#games-slider figure:hover img{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
 /*! PRODUCT PS5 SECTION */
 
-#product-ps5 row:last-child .col{
+#product-ps5 .row:last-child .col figure{
     border-color: transparent !important;
+    cursor: pointer;
+    transition: border-color 1s;
 }
 
-#product-ps5 .row:last-child .col:first-child{
+#product-ps5 .row:last-child .col:first-child figure{
     border-color: var(--blue) !important;
 }
+
+#product-ps5 .row:last-child figure:hover{
+    border-color: var(--blue) !important;
+}
+
+#product-ps5 .row:last-child figure img{
+    transition: opacity 1s;
+}
+
+#product-ps5 .row:last-child figure:hover img{
+    opacity: 1 !important;
+}
+
+
 
 /*! NEW RELEASES SECTION */
 
