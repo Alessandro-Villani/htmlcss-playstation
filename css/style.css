@@ -77,6 +77,15 @@ body{
     max-width: 60%;
 }
 
+.cs-list-inside li::before{
+    content: "\2022";
+    color: var(--cs-btn-primary); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
 
 /*! HEADER */
 
@@ -104,6 +113,15 @@ header .dropdown-toggle:hover::after{
     width: 12px;
     vertical-align: middle;
 }
+
+header ul.drop-shadow li:hover{
+    box-shadow: 0px 0px 5px 2px lightgray;
+}
+
+header ul.cs-list-inside li:hover a{
+    color: var(--cs-btn-primary) !important;
+}
+
 
 /*! JUMBOTRON */
 
@@ -201,6 +219,17 @@ footer{
 
     .cs-mw-lg-80{
         max-width: 80%;
+    }
+
+    /*+ DROPDOWN MENU */
+
+    header .navbar-expand-lg .navbar-nav .dropdown-menu{
+        position: fixed;
+        top: 4.5rem;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        border-width: 0;
     }
 
 }
